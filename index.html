@@ -6,11 +6,87 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
   <link href="css/custom.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+  <style>
+a
+{
+  color: #d33682;
+  font-weight: bold
+}
+
+h1
+{
+  color: #586e75;
+  font-family: 'EB Garamond', serif;
+  font-variant: small-caps;
+}
+
+h3
+{
+  color: #586e75;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 15px;
+}
+
+h3 span
+{
+  font-variant: small-caps;
+}
+
+h3 i
+{
+  padding-right: 12px;
+}
+
+p
+{
+  font-family: 'EB Garamond', serif;
+  font-size: 15pt;
+  line-height: 1.4;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.divider-thin-thick
+{
+  text-align:center;
+  width:90%;
+  max-width:700px;
+  margin:15px auto 35px auto;
+  border-top:1px solid #EEEEEE;
+  border-bottom:2px solid #EEEEEE;
+  height:5px;
+  clear:both
+}
+
+.mytext
+{
+  display: inline-block;
+  max-width: 700px;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+}
+
+.myimg
+{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-family: 'EB Garamond', serif;
+}
+
+  </style>
+
  </head>
  <body>
   <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
    <div class="container">
     <div class="navbar-header">
+     <!-- PUT YOUR SHORT TITLE HERE (should match other pages) -->
      <a class="navbar-brand" href="index.html">Socially Conscious Hip Hop</a>
     </div>
     <div class="navbar-collapse collapse" id="navbar">
@@ -30,20 +106,71 @@
       </li>
      </ul>
     </div>
-   </div>
+  </div>
   </nav>
-  <div class="container" style="padding-top: 30px;">
-   <div class="row">
-    <div class="col-lg-4">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg" style="max-width: 300px"/>
+
+  <div style="text-align: center; background: #f1f1f1">
+  <div style="display: inline-block; padding-top: 90px; padding-bottom: 90px; background: white; width: 900px">
+
+    <!-- PUT YOUR LONG TITLE AND NAME HERE -->
+    <div style="max-width: 600px; display: inline-block;">
+      <h1>The Evolution of Socially Conscious Hip Hop as seen on Wikipedia</h1>
+      <h3><i>by</i> <span>Ting Chen</span></h3>
     </div>
-    <div class="col-lg-8" style="font-size: 16px; max-width:600px">
-     <h1>Text Explorer</h1>
-     <p>Here is some explanation of what we are doing. Here isexplanation of what we are doing. Here is some explanation of what we are doing.</p>
-     <p>Here is some explanation of what we are doing. Here isexplanation of what we are doing. Here is some explanation of what we are doing.</p>
-     <p/>
+
+    <div class="divider-thin-thick">&nbsp;</div>
+
+    <div class="myimg">
+      <img src="http://languageraceandmedia.sites.gettysburg.edu/wp-content/uploads/2016/05/imgres-3.jpg" style="max-width: 200px;"/>
+      <br>
+
     </div>
-   </div>
+    <!-- example of a text box; include as many paragraphs as needed -->
+    <div class="mytext">
+      <p>
+As the current of time ebbs and flows, we see culture blossom alongside it. A digital archive now exists that allows us to see this in the form of Wikipedia and the MediaWiki API. Due to the relative youth of the internet as well as Wikipedia, I wanted to focus on a topic that has gone through a great deal of change in recent years so that I could see the evolution of the topic as it occurred. I thus chose socially conscious hip hop or rap as it closely follows major trends in society such as political polarization, police brutality, race relations, and economic anxiety, all of which experienced major developments in recent years. I then created a corpus of Wikipedia pages related to political hip hop, and grabbed page history data from each page using the MediaWiki API. Finally, I performed spectral clustering as well as degree centrality analysis on each page and compiled all of the data and results onto a website.
+      </p>
+      <p>
+        The philosophical beginnings of socially conscious or political hip hop start with the Black Power Movement of the 1960s and 1970s and its emphasis on black pride. Hip hop music at the beginning was used as an outlet and a voice for the disenfranchised youth of marginalized backgrounds and low income areas, as the hip hop culture reflected the social, economic and political realities of their lives. Rap as a genre has therefore always been intertwined with political messages. Socially conscious rap really began proliferating in the 1980s, with the election of Ronald Reagan and the worsening of conditions for African American communities in the inner cities. Rap artists picked up on that and began to comment increasingly on the growing social problems of police brutality and mass incarceration. Accordingly, I started off my corpus with links to the political hip hop and hip hop pages, a list of political rappers as well as a list of protests songs, the Black Power Movement Page, and the first socially conscious hip hop songs. The next few links relate to the 80s with Ronald Reagan, the prison-industrial complex, racism in the United States, and police brutality. Several prominent artists of that era include N.W.A. and Ice Cube who comprise the next several links of the corpus. Interestingly, it was around this time that gangsta rap began developing with the previously mentioned artists, who blended the violent and aggressive imagery of gangsta rap with the social commentary of political rap. Therefore gangsta rap gets a spot on the corpus as the next link.
+      </p>
+    </div>
+
+    <!-- example of an image box -->
+    <div class="myimg">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51x-aPEbhiL._SX466_.jpg" style="max-width: 300px;"/>
+      <br>
+      Prominent hip hop group N.W.A., who blended both socially conscious and gangsta hip hop in the 1980s.
+    </div>
+
+    <!-- another text box -->
+    <div class="mytext">
+      <p>
+        With the 90s came a golden age of hip hop and the career of Tupac Shakur, considered by many as the greatest socially conscious hip hop artist of all time. Tupac and other popular 90s hip hop artists are the next links on the corpus as well as common themes of the era such as the War On Drugs and the Five Percent Nation. The 2000s saw the exit of socially conscious rap from the mainstream and its growth in popularity in the underground. Instead, crunk and less political gangsta hip hop grew prevalent in the mainstream. Accordingly, underground hip hop is the next link in our corpus.
+      </p>
+      <p>
+        Finally, today we see a return to the roots of hip hop, with socially conscious hip hop re entering the mainstream. Popular artists such as Kendrick Lamar and Killer Mike are still speaking about race relations and poverty, especially with the emergence of the social movement Black Lives Matter. Additionally, religion and different economic and political philosophies such as Marxism and Libertarianism have been espoused by artists as they seek to answer to problems facing society today. Rap is also more engaged in politics than ever before, with much of its focus and criticisms directed towards the Republican Party and its candidates while at the same time supporting figures such as Barack Obama and Hillary Clinton. While before politicians have ignored the influence of hip hop, today’s politicians such as Donald Trump and Marco Rubio have acknowledged and actively engaged with political hip hop. As such, the next parts of the corpus include the popular socially conscious artists of our era, religion and the philosophies they embraced, and the political figures of focus. In the end, I constructed my corpus with the purpose of showing a chronology of socially conscious hip hop through its many artists and themes.
+
+      </p>
+    </div>
+
+    <div class="myimg">
+      <img src="https://www.billboard.com/files/styles/article_main_image/public/media/barack-obama-kendrick-lamar-2016-top-dawg-entertainment-billboard-650.jpg" style="max-width: 400px;"/>
+      <br>
+      President Obama meeting with hip hop icon Kendrick Lamar in the Oval Office.
+    </div>
+
+    <div class="mytext">
+      <p>
+        The first of many interesting observations concerns the introduction paragraph of the political hip hop Wikipedia page. The page was first created in 2006 and its current introduction paragraph format was adopted in 2015. One of the sentences from 2015 reads, “There is no all-encompassing political hip hop ideology. Rather, there are multiple perspectives that range anywhere from Libertarianism to the values of the Five Percent Nation.” This sentence largely remained the same until in 2017 the word “Libertarianism” was replaced with the word “Marxism”, perhaps reflecting the political polarization of recent years. The history of the page also yields interesting observations. The first major expansion of the page came in 2008, the year Barack Obama was elected. The page increased by about eightfold, going from around 3000 characters to more than 24000 characters. With the election of Obama came increased conversation of race relations in the United States and a spark that brought political hip hop back into the mainstream. The political hip hop page has subsequently quadrupled since 2008, to over 100000 characters.
+      </p>
+      <p>
+Other interesting observations can be seen as we look at the centrality scores of each page in our corpus. We consistently see that important people and figures have higher centrality scores compared to ideas and ideologies. Even some rather unimportant figures have higher centrality scores than seemingly important topics. For example, the page of Hillary Clinton has a centrality score of .20035, which is slightly higher than those of both Hip hop and List of political hip hop artists, having centrality scores of .19201 and .19958, respectively. On the other end, the most surprising small centrality score is that of police brutality, which only has a centrality score of .01808.
+      </p>
+      <p>
+        From our observations, two interesting conclusions could be made. The first is that with the Wikipedia and MediaWiki archives, we can literally see “history being written” as it occurs. From the live encyclopedia we saw the gradual re-emergence of political hip hop as it became prominent again in the mainstream. We also saw how current political trends left their mark on the “pages of history”, being in our case Wikipedia pages. The other conclusion we could make is that pages of people and figures are more prominent and often linked to other pages as compared to pages of ideas and philosophies on Wikipedia. We saw this with the higher centrality scores of the people in the corpus, most notably Hillary Clinton.
+      </p>
+    </div>
+  </div>
   </div>
  </body>
 </html>
